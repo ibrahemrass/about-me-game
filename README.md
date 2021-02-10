@@ -4,5 +4,7 @@
 # Lab: 04 - Pair Programming: More extensions to About Me
 
 Areen Jaradat (Driver)
+
 Ibrahem Aburass(Navigator)
-yhe code was worked on together
+
+the code was worked on together
