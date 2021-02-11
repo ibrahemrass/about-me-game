@@ -19,6 +19,7 @@ function question1() {
   else if (fevGame.toLowerCase() === "no" || fevGame.toLowerCase() === "n") {
   alert("you dont know me that will i love gaming");
 }
+}
 
 function question2() {
   let favRaper = prompt("do i like music ");
@@ -29,6 +30,7 @@ function question2() {
   } else if (favRaper.toLowerCase() === "no" || favRaper.toLowerCase() === "n" ) { 
     alert("i love music");
 }
+}
 
 function question3() {
   let dance = prompt("do i like to dance");
@@ -38,6 +40,7 @@ function question3() {
     score++;
   } else if (dance.toLowerCase() === "no" || dance.toLowerCase() === "n") { 
     alert("i love to dance ");
+}
 }
 
 function question4() {
@@ -81,26 +84,29 @@ for (let i = 0; i < 4; i++) {
 }
 }
 
-let arrOfColer = ["red", "green", "blou", "gry", "black"];
-
 function question7() {
+  let arrOfColer = ["red", "green", "blou", "gry", "black"];
 let useranswr;
 let index;
 let flag = false;
+
 for (index = 0; index < 6; index++) {
   useranswr = prompt("can u guss what colers do i like");
   useranswr = useranswr.toLowerCase();
   for (let j = 0; j < arrOfColer.length; j++) {
+    if(useranswr.toLowerCase()=== arrOfColer[j]){
     alert("thats right");
     flag = true;
     score++;
     break;
   }
-  if (flag) {
-    break;
   }
 }
+if(flag){
+  break;
 }
+}
+
 yourName();
 question1();
 question2();
@@ -109,4 +115,5 @@ question4();
 question5();
 question6();
 question7();
-alert(`my favourite colers ${arrOfColer} and your score is  ${score}`)
+alert(`my favourite colers ${arrOfColer} and your score is  ${score}`);
+
