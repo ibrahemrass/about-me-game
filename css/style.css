@@ -1,8 +1,31 @@
 body h1 {
-    color: mediumturquoise;
+    color: rgb(204, 31, 83); font-size: xx-large; margin: 2cm; font-family: fantasy; 
+    text-align: center; text-shadow:2px 2px #331818;
 }
 script{
     font-size: larger; color: mediumvioletred;
 }
 
-body  { font-size: larger; background-color: powderblue;}
+body  { font-size: larger
+
+}
+
+body p {
+    font-size: larger; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: italic;
+    color: rgb(172, 25, 159);
+}
+
+ul{
+    margin-top: 1cm; margin-left: 1cm; font-family: Arial, Helvetica, sans-serif; list-style: initial; color: rgb(97, 1, 1);
+}
+
+ol{
+    margin-top: 1cm; margin-left: 1cm; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: lower-roman; color: maroon;
+}
+
+footer{
+    margin: 2cm; font-family: fantasy; margin-block-end: 1cm;
+}
+body{
+    background-image:url(https://pressstart.vip/images/uploads/assets/bluemoon.png) }
