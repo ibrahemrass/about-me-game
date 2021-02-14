@@ -5,13 +5,13 @@ alert("hello");
 
 function yourName() {
   let userName = prompt("what is your name");
-  console.log("YOUR NAME IS :", userName);
+
   confirm(userName);
 }
 
 function question1() {
   let fevGame = prompt("do i love gaming");
-  console.log(fevGame);
+ 
   if (fevGame.toLowerCase() === "yes" || fevGame.toLowerCase() === "y") {
     alert("yes i love gaming and my favourt game is overwatch");
     score++;
@@ -23,7 +23,7 @@ function question1() {
 
 function question2() {
   let favRaper = prompt("do i like music ");
-  console.log(favRaper);
+
   if (favRaper.toLowerCase() === "yes" || favRaper.toLowerCase() === "y" ) {
     alert("i love rab music and my favrout raber is eminem");
     score++;
@@ -34,7 +34,7 @@ function question2() {
 
 function question3() {
   let dance = prompt("do i like to dance");
-  console.log("i like to dance ", dance);
+
   if (dance.toLowerCase() === "yes" || dance.toLowerCase() === "y") {
     alert("dance is fun");
     score++;
@@ -45,7 +45,7 @@ function question3() {
 
 function question4() {
   let qous1 = prompt("do i like football");
-  console.log(qous1);
+
 
   if (qous1.toLowerCase() === "yes" || qous1.toLowerCase() === "y") {
     alert("i love realmadrid");
